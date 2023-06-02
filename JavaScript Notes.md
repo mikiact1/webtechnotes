@@ -14,7 +14,7 @@ In this book I talk about JavaScript, the language.
 
 Without complicating your learning process with things that are outside of it, and provided by external ecosystems.
 
-![R.png](JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R.png)
+![R.png](https://th.bing.com/th/id/R.f33d8fe2b367f3724ffcf12bee3c04f1?rik=oUOS6ivqdYhMCw&pid=ImgRaw&r=0)
 
 # **A brief intro to the syntax of JavaScript**
 
@@ -367,7 +367,7 @@ A remainder by zero is always `NaN`, a special value that means "Not a Number":
 
 ```
 
-### **The multiplication operator (*)**
+### **The multiplication operator (\*)**
 
 Multiply two numbers
 
@@ -377,7 +377,7 @@ Multiply two numbers
 
 ```
 
-### **The exponentiation operator (**)**
+### **The exponentiation operator (**)\*\*
 
 Raise the first operand to the power of the second operand
 
@@ -407,11 +407,11 @@ What operations are executed first, and which need to wait?
 
 Some operations have more precedence than the others. The precedence rules are listed in this table:
 
-| OPERATOR | DESCRIPTION |
-| --- | --- |
-| * / % | multiplication/division |
-| + - | addition/subtraction |
-| = | assignment |
+| OPERATOR | DESCRIPTION             |
+| -------- | ----------------------- |
+| \* / %   | multiplication/division |
+| + -      | addition/subtraction    |
+| =        | assignment              |
 
 Operations on the same level (like `+` and `-`) are executed in the order they are found, from left to right.
 
@@ -458,7 +458,7 @@ Note that we also have `==` and `!=` in JavaScript, but I highly suggest to 
 
 # **Conditionals**
 
-![R (1).png](JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(1).png)
+![R (1).png](<JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(1).png>)
 
 With the comparison operators in place, we can talk about conditionals.
 
@@ -788,7 +788,7 @@ const string = `something ${1 + 2 + 3}`const string2 = `something
 
 # **Loops**
 
-![OIP (1).jpg](JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/OIP_(1).jpg)
+![OIP (1).jpg](<JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/OIP_(1).jpg>)
 
 Loops are one of the main control structures of JavaScript.
 
@@ -893,7 +893,7 @@ for (const value of list) {
 
 # **Functions**
 
-![R (2).png](JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(2).png)
+![R (2).png](<JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(2).png>)
 
 In any moderately complex JavaScript program, everything happens inside functions.
 
@@ -905,7 +905,7 @@ A function is a block of code, self contained.
 
 Here's a **function declaration**:
 
-![OIP (2).jpg](JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/OIP_(2).jpg)
+![OIP (2).jpg](<JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/OIP_(2).jpg>)
 
 ```
 function getData() {
@@ -1162,7 +1162,7 @@ The two types of functions are very similar, so you might ask why arrow function
 
 Any value that's not of a primitive type (a string, a number, a boolean, a symbol, null, or undefined) is an **object**.
 
-![R (6).jpg](JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(6).jpg)
+![R (6).jpg](<JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(6).jpg>)
 
 Here's how we define an object:
 
@@ -1566,7 +1566,7 @@ This is very useful, at times.
 
 A class can **extend** another class, and objects initialized using that class inherit all the methods of both classes.
 
-![R (3).png](JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(3).png)
+![R (3).png](<JavaScript%20Notes%204ec4339e44c9410a939b0334eb211385/R_(3).png>)
 
 Suppose we have a class `Person`:
 
